@@ -1,27 +1,17 @@
 {
-  "dependencies": {
-    "typescript": "^5.7.3"
-  },
   "name": "goit-neo-advancedjs-hw-06",
   "version": "1.0.0",
-  "description": "Gh pages link: https://jaciubek.github.io/goit-neo-advancedjs-hw-06/",
-  "main": "index.js",
-  "devDependencies": {
-    "@web/dev-server": "^0.2.1"
-  },
-  "scripts": {
-    "start": "web-dev-server --node-resolve --open --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jaciubek/goit-neo-advancedjs-hw-06.git"
-  },
+  "description": "Метою цього домашнього завдання є закріплення ваших навичок роботи з базовими типами TypeScript. Ви будете працювати з типами, такими як number, string, boolean, null, undefined, unknown, any, а також кортежами, переліками (enum) та об'єднаннями типів.",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Jaciubek/goit-neo-advancedjs-hw-06/issues"
+  "dependencies": {
+    "typescript": "^5.1.5",
+    "vite": "^6.0.3"
   },
-  "homepage": "https://github.com/Jaciubek/goit-neo-advancedjs-hw-06#readme"
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc && vite"
+  }
 }
