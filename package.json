@@ -4,7 +4,7 @@
   },
   "name": "goit-neo-advancedjs-hw-06",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gh pages link: https://jaciubek.github.io/goit-neo-advancedjs-hw-06/",
   "main": "index.js",
   "devDependencies": {
     "@web/dev-server": "^0.2.1"
